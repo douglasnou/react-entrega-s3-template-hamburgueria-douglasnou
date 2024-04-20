@@ -1,0 +1,38 @@
+.cardSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 5rem;
+
+    padding: 20px;
+    margin: 20px 0;
+
+    button{
+        color: var(--grey-300);
+    }
+    
+    .cardInfo{
+        display: flex;
+        align-items: center;
+
+        img{
+            max-width: 82px;
+            max-height: 80px;
+            background: var(--grey-000);
+        }
+
+        .cardStats{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+
+            width: 7.125rem;
+            height: 5rem;
+
+            margin: 0 20px;
+        }
+    }
+}

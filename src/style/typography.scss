@@ -1,0 +1,53 @@
+%title{
+    font-family: var(--font);
+    font-weight: 700;
+    color: var(--grey-600);
+}
+
+.title1{
+    @extend %title;
+    font-size: clamp(1.3rem, 5vw, 1.625rem);
+}
+
+.title2{
+    @extend %title;
+    font-size: clamp(1.2rem, 5vw, 1.375rem);
+}
+
+.title3{
+    @extend %title;
+    font-size: clamp(1rem, 5vw, 1.125rem);
+}
+.title3.white{
+    color: white;
+}
+
+%text{
+    font-family: var(--font);
+    font-weight: 400;
+    color: var(--grey-300);
+}
+
+.text1{
+    @extend %text;
+    font-size: clamp(.875rem, 5vw, 1rem);
+}
+
+.text2{
+    @extend %text;
+    font-size: clamp(.75rem, 5vw, .875rem);
+}
+
+.text3{
+    @extend %text;
+    font-size: clamp(.75rem, 5vw, .875rem);
+    font-weight: 600;
+}
+.text3.green{
+    color: var(--color-primary)
+}
+
+.text4{
+    @extend %text;
+    font-size: clamp(.625rem, 5vw, .75rem);
+}

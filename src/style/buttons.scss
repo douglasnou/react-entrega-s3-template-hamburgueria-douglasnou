@@ -1,0 +1,37 @@
+%main-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+    padding: 0 20px;
+    margin: 0;
+
+    background: var(--grey-300);
+
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--grey-000);
+}
+
+.btn1{
+    @extend %main-btn;
+    width: 6.625rem;
+    height: 2.5rem;
+    transition: .8s ease;
+}
+
+.btn1:hover, .btn2:hover{
+    background: var(--color-primary);
+    transition: .8s ease;
+}
+
+.btn2{
+    @extend %main-btn;
+
+    width: 23rem;
+    height: 3.75rem;
+
+    transition: .8s ease;
+}

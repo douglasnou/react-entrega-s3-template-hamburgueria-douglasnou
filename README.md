@@ -1,2 +1,8 @@
-# react-entrega-s3-template-hamburgueria-douglasnou
-Aplicação de uma hamburgueria online feita com React. Neste projeto foram usados os conceitos de API, LocalStorage, UseEffects, Modal, Toast, Axios e SASS. O usuário pode adicionar itens no carrinho, remover item por item ou remover todos, por conta do uso de local storage, as alterações feitas pelo usuário não são perdidas ao atualizar a página.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
