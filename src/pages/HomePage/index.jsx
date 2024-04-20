@@ -26,7 +26,7 @@ export const HomePage = () => {
    }, [cartList]);
 
    const addProduct = (product) => {
-      const newProduct = [...cartList, product];
+      const newProduct = [...cartList, product]
       const noRep = newProduct.filter((e) => {
          return e.id === product.id
       });
