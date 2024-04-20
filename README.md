@@ -1,0 +1,2 @@
+# react-entrega-s3-template-hamburgueria-douglasnou
+Aplicação de uma hamburgueria online feita com React. Neste projeto foram usados os conceitos de API, LocalStorage, UseEffects, Modal, Toast, Axios e SASS. O usuário pode adicionar itens no carrinho, remover item por item ou remover todos, por conta do uso de local storage, as alterações feitas pelo usuário não são perdidas ao atualizar a página.
