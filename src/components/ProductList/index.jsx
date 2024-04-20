@@ -10,5 +10,5 @@ export const ProductList = ({ addProduct, productsResult }) => {
             ))}
          </ul>
       </div>
-   )
-}
+   );
+};
