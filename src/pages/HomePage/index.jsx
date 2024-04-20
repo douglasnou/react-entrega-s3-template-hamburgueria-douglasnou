@@ -28,7 +28,7 @@ export const HomePage = () => {
    const addProduct = (product) => {
       const newProduct = [...cartList, product]
       const noRep = newProduct.filter((e) => {
-         return e.id === product.id
+         return e.id === product.id;
       });
       noRep.length > 1 ? notifyError() :
          (setCartList(newProduct), notifySuccess());
@@ -46,7 +46,7 @@ export const HomePage = () => {
    }
    const productsResult = productList.filter((element)=>{
      const searchItems = search === "" ? true : element.name.toLowerCase().includes(search.toLowerCase());
-     return searchItems
+     return searchItems;
    });
    
    return (
