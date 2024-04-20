@@ -23,7 +23,8 @@ export const CartModal = ({ cartList, removeProduct, removeAll, setIsOpen }) => 
                      {cartList.map((product) => (
                         <CartItemCard key={product.id} product={product} removeProduct={removeProduct} />
                      ))}
-                  </ul>}
+                  </ul>
+               }
             </div>
             <div className={styled.modalLast}>
                <div className={styled.modalFooter}>
